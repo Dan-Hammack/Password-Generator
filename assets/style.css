@@ -1,8 +1,6 @@
-/* Jamie Morris Homework-3 Random Password Generator */
-/* Styles for Homework 3 */
 /* Styles for body */
 body {
-    background-color: #E8E8E8;
+    background-color: #000000;
     margin: 0 auto;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #696969;
@@ -46,7 +44,7 @@ h2 {
 /* Styles for textarea */
 textarea {
     padding: 10%;
-    border: dashed 1px gray;
+    border: dashed 1px rgb(0, 0, 0);
     margin-left: 10%;
     padding-left: 15%;
     padding-right: 15%;
@@ -78,60 +76,3 @@ textarea {
     margin-left: 10px;
     margin-bottom: 10px;
 }
-
-/* Start Media Query */
-/* A Media Query max-width: 980px */
-@media screen and (max-width: 980px) {
-    /* Resized content to fit 980px  */
-    body {
-        max-width: 980px;
-    }   
-    /* Styles for the wrapper div */
-    #wrapper {
-        width: 100%;
-        }
-}
-    /* A Media Query max-width: 786px */
-    @media screen and (max-width: 786px) {
-    /* Resized content to fit 786px  */
-    body {
-        max-width: 786px;
-    } 
-    /* Styles for the wrapper div */
-    #wrapper {
-        width: 100%;
-        }
-/* Styles for generate button */
-#generate {
-    
-    margin-left: 10%;
-    margin-bottom: 10px;
-}
-/* Styles for copy button */
-
-    }
-    /* A Media Query max-width: 640px */
-    @media screen and (max-width: 640px) {
-     /* Resized content to fit 640px  */
-     body {
-        max-width: 640px;
-    } 
-    
-     #wrapper {
-        width: 100%;
-        }
-        #btn {
-            margin-top: 20px;
-        }
-        /* Styles for generate button */
-        #generate {
-            margin-left: 22%;
-            
-        }
-        /* Styles for copy button */
-        #copy {
-            margin-left: 22%;
-            
-        }
-    
-    }
