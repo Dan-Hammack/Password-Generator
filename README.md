@@ -1,7 +1,7 @@
 # Password-Generator
 Generate a random password based on criteria they’ve selected by modifying starter code
 
-![](assets/Readme-Images/DEMO.gif)
+![](assets/Readme/demo.gif)
 
 This project solves the security concern of weak passwords. Given that a user needs a new, secured password, they will be promted to determine certain character types required for the password and then a new random password will be generated.
 
